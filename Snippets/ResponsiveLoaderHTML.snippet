@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>ResponsiveLoaderHTML</Title>
+            <Shortcut>ResponsiveLoaderHTML</Shortcut>
+            <Description>Incorporates front-end code for ResponsiveLoader</Description>
+            <Author>Jorge J. Álvarez</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+                <SnippetType>SurroundsWith</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Code Language="html">
+				<![CDATA[        <script type="text/javascript">
+            var pcLimit = 1200;
+            var tabletLimit = 800; //Puedes desactivar la versión de tablet con -1
+            var mobileLimit = 600;
+            var resizeListenerEnabled = false;
+        </script>
+        <script src="./Content/ResponsiveLoader.js" type="text/javascript"></script> <!-- Cambia la ruta si es necesario -->]]></Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
